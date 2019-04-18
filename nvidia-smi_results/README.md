@@ -6,7 +6,7 @@ The name of each file reflects number of GPUs and the batch size used for each t
 Other variables other than the number of GPUs and the batch size are fixed as follows:
   - model = AlexNet
   - learning rate = 0.02
-  - gpu=p40
-  - cpus per task=4
+  - gpu = p40
+  - cpus per task = 4
   - stop at iteration 15
   
