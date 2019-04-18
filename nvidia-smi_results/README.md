@@ -1,7 +1,9 @@
-__Includes 12 nvidia-smi results ran on AlexNet.__
+__12 nvidia-smi results ran on AlexNet__
 
 The name of each file reflects number of GPUs and the batch size used for each test.
 (ex. gpu2_batch32.csv : 2 GPUs, batch size 32)
+
+The result files include timestamp, index, name, utilization.gpu, utilization.memory, memory.used, memory.total at every 120ms in csv format while main.py was running.
 
 Other variables other than the number of GPUs and the batch size are fixed as follows:
   - model = AlexNet
@@ -9,4 +11,6 @@ Other variables other than the number of GPUs and the batch size are fixed as fo
   - gpu = p40
   - cpus per task = 4
   - stop at iteration 15
+  
+ 
   
