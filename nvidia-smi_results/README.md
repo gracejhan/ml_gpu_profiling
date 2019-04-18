@@ -1,4 +1,4 @@
-Includes 12 nvidia-smi results ran on AlexNet.
+__Includes 12 nvidia-smi results ran on AlexNet.__
 
 The name of each file reflects number of GPUs and the batch size used for each test.
 (ex. gpu2_batch32.csv : 2 GPUs, batch size 32)
